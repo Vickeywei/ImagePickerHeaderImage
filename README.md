@@ -1,0 +1,2 @@
+# ImagePickerHeaderImage
+模仿qq选择头像的控件封装
