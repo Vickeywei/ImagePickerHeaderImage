@@ -68,7 +68,7 @@
 - (void)sureButtonAction {
     UIGraphicsBeginImageContextWithOptions(self.headerImageView.bounds.size, NO, 0);
     // 计算圆形图在self.imageView上面的Frame
-    CGRect rect = CGRectMake(self.view.center.x - self.headerImageView.frame.origin.x-(SCREEEN_WIDTH-250), self.view.center.y - self.headerImageView.frame.origin.y-(SCREEEN_WIDTH-250), (SCREEEN_WIDTH-250)*2, (SCREEEN_WIDTH-250)*2+10);
+    CGRect rect = CGRectMake(self.view.center.x - self.headerImageView.frame.origin.x-(SCREEEN_WIDTH-250), self.view.center.y - self.headerImageView.frame.origin.y-(SCREEEN_WIDTH-250), (SCREEEN_WIDTH-250)*2, (SCREEEN_WIDTH-250)*2-10);
     UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:rect];
     [path addClip];
     

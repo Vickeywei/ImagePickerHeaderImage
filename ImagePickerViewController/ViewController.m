@@ -123,6 +123,9 @@
 - (UIImageView *)headerImageView {
     if (!_headerImageView) {
         _headerImageView = [[UIImageView alloc] initWithFrame:CGRectMake(80, 80,120, 120)];
+        _headerImageView.layer.masksToBounds = YES;
+        _headerImageView.layer.cornerRadius = 60;
+        _headerImageView.backgroundColor = [UIColor redColor];
        
     }
     return _headerImageView;
