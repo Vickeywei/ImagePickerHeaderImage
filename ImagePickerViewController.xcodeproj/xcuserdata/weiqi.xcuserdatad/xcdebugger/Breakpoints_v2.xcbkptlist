@@ -32,7 +32,7 @@
             startingLineNumber = "131"
             endingLineNumber = "131"
             landmarkName = "-initWithSelectedAssets:selectedPhotos:index:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +144,7 @@
             startingLineNumber = "13"
             endingLineNumber = "13"
             landmarkName = "+showAlertViewControllerWithTitle:message:buttonTitles:showViewController:completionBlock:cancleBlock:preferredStyle:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -160,7 +160,7 @@
             startingLineNumber = "29"
             endingLineNumber = "29"
             landmarkName = "-headerImageAction:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -176,7 +176,7 @@
             startingLineNumber = "121"
             endingLineNumber = "121"
             landmarkName = "-checkCameraAuthorization"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -43,11 +43,16 @@ static void (^G_completionBlock)(int buttonindex);
     
 #endif
 }
-
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated"
 +(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
+
+    
+
     if (G_completionBlock) {
         G_completionBlock((int)buttonIndex);
     }
 }
+#pragma clang diagnostic pop
 @end
